@@ -1,0 +1,422 @@
+#wpadminbar {
+  position: fixed;
+  top: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#home-mid-wrap {
+  padding-top: 0px;
+}
+
+#body-top-sidebar-wrap {
+  max-width: 970px;
+  position: relative;
+  top: -15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.leaderboard-top {
+  top: 220px !important;
+}
+
+#background-sidebar-wrap {
+  width: 970px;
+  position: absolute;
+  height: 900px;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.body-main-out {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  /*float: none;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);*/
+}
+
+.body-main-in {
+  margin-left: 0px;
+}
+
+.home-right-col, 
+#arch-right-col,
+#post-right-col {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#arch-right-col .feat-widget-cont .feat-widget-in,
+#post-right-col .feat-widget-cont .feat-widget-in {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#arch-right-col .widget_text,
+#post-right-col .widget_text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#feat-wide-wrap {
+  max-width: 970px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#main-nav-wrap {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3) !important;
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3) !important;
+  -ms-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3) !important;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3) !important;
+}
+
+#main-nav-wrap.nav-unfixed {
+  position: relative !important;  
+}
+
+#main-nav-wrap.fixed {
+  position: fixed !important;
+  top: 0;
+}
+
+.cat-head {
+  padding-left: 15px;
+}
+
+#arch-right-col .side-widget {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#post-feat-img img {
+  max-width: 100%;
+}
+
+#post-info-wrap {
+  margin-bottom: 25px;
+}
+
+.nav-logo-out {
+  margin: 0 auto;
+}
+
+.gallery .gallery-item {
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+
+.gallery img {
+  border: none !important;
+}
+
+.wp-caption,
+#content-main p.wp-caption-text,
+.gallery-caption {
+  margin-bottom: 10px;
+}
+
+.postid-37152 div[id^="bannerBox"],
+.postid-38740 div[id^="bannerBox"] {
+  display: none !important;
+}
+
+@media (min-width: 1004px) {
+  .nav-logo-out {
+    /*max-width: 970px;*/
+    max-width: 1350px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  #post-feat-img {
+    margin: 0 10px;
+    width: auto;
+  }
+
+  .post-feat-text {
+    width: 100%;
+  }
+}
+
+/* widget ad */
+.widget-ad {
+  background: transparent; 
+}
+
+/* DFP LEADERBOARD  */
+#leaderboard {
+  /* height: 90px; */
+  text-align: center;
+  width: 100%;
+  z-index: 9998;
+}
+
+@media screen and (max-width: 479px) {
+  .widget-ad {
+    margin-bottom: 0px;
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    float: none;
+  }
+  
+  div:not(#div-gpt-ad-1493804392438-3):not(#div-gpt-ad-1493804392438-9):not(#div-gpt-ad-1493804392438-8):not(#div-gpt-ad-1538375354659-0)[id^=div-gpt-ad] {
+    margin: 15px auto;
+  }
+
+  /* #leaderboard {
+    top: 49px;
+    position: fixed;
+  } */
+
+  .admin-bar #leaderboard {
+    top: 96px;
+  }
+}
+
+/* Taboola widget */
+.taboola-home-category-widget-wrap {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#taboola-below-article-thumbnails {
+  padding-top: 60px;
+  margin-top: 30px;
+  box-shadow: 0px -1px #e6ecf0;
+}
+
+/* addThis plugin */
+.at-above-post, 
+.addthis_inline_share_toolbox_8awy {
+  display: inline-block;
+  float: right;
+  clear: none;
+}
+.at4-jumboshare .at4-count {
+  line-height: 16px !important;
+  color: #eb0254 !important;
+}
+
+.at4-jumboshare .at-share-btn {
+  border-radius: 50% !important;
+}
+
+.at4-count-container {
+  min-width: 95px !important;
+  padding-right: 0px !important;
+  border: none !important;
+}
+
+.at-custom-sidebar-counter {
+  background-color: #fff;
+  padding: 8px 0;
+}
+
+.at4-jumboshare .at4-share-container {
+  padding-left: 15px !important;
+  border: none !important;
+}
+
+.at4-jumboshare .at4-title {
+  bottom: 0px !important;
+}
+
+.at4-jumboshare .at4-spacer {
+  display: none !important;
+}
+
+@media (max-width: 400px) {
+  .at-above-post .at4-count-container,
+  .at-above-post .at4-share-container,
+  .addthis_inline_share_toolbox_8awy .at4-count-container,
+  .addthis_inline_share_toolbox_8awy .at4-share-container {
+    padding-left: 0px;
+    min-width: 70px !important;
+  }
+
+  .at-above-post .at-icon-wrapper,
+  .at-above-post .at-icon-wrapper,
+  .addthis_inline_share_toolbox_8awy .at-icon-wrapper {
+    line-height: 28px !important;
+    height: 26px !important;
+    width: 26px !important;
+  }
+
+  .at-above-post .at-icon-wrapper > svg,
+  .at-above-post .at-icon-wrapper > svg,
+  .addthis_inline_share_toolbox_8awy .at-icon-wrapper > svg {
+    transform: scale(0.8);
+    position: relative;
+    top: -2px;
+    left: -2px;
+  }
+
+  .at4-jumboshare .at4-share-container {
+    padding-left: 5px !important;
+  }
+  
+  .at4-jumboshare .at4-spacer {
+    display: none !important;
+  }
+
+  .at4-jumboshare .at4-count > span {
+    font-size: 26px !important;
+    vertical-align: middle;
+    margin-top: -1px;
+  }
+
+  .at4-jumboshare .at4-title {
+    bottom: 2px !important;
+  }
+}
+
+.addthis {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.addthis .at4-count-container {
+  text-align: center;
+  margin-right: 15px;
+}
+.addthis .at4-count-container .at4-count {
+  color: #eb0254 !important;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.addthis .at4-count-container .at4-title {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+
+/* AddThis sidebar & bottom bar */
+#at4-share .at-custom-sidebar-counter {
+  display:none;
+}
+
+#at-share-dock .at4-counter {
+  opacity: 0;
+}
+
+#nst-stories {
+  font-size: 11px;
+
+  
+}
+
+#nst-stories img {
+  height: 150px;
+  width: 100%;
+}
+
+#nst-stories a {
+  font-size: 14.0px;
+  font-weight: normal;
+  color: #333;
+}
+
+#nst-stories a span {
+  margin: 8px 0;
+  display: inline-block;
+  font-family: helvetica neue,'sans-serif'!important;
+  font-size: 16px!important;
+  line-height: 19.2px!important;
+  font-weight: 600!important;
+}
+
+#nst-stories a span:hover {text-decoration: underline;}
+
+/* sto overlay */
+#sto-overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+ height: 100%;
+ width: 100vw;
+ position: fixed; /* Stay in place */
+ z-index: 99999; /* Sit on top */
+ left: 0;
+ display: none;
+ top: 0;
+ background-color: rgb(255,255,255); /* Black fallback color */
+ background-color: rgba(255,255,255, 0.9); /* Black w/opacity */
+ overflow-x: hidden; /* Disable horizontal scroll */
+ transition: 0.5s;
+}
+
+/* Position the content inside the overlay */
+#sto-overlay .overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: inherit;
+}
+
+/* Position the close button (top right corner) */
+#sto-overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 45px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #F1197C;
+}
+
+#sto-overlay  .closebtn span {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #F1197C;
+  color: #fff;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  #sto-overlay  .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* disable ads on sponsored */
+body.no-ads div[id^=innity_adslot] { display: none !important; }
+body.no-ads .teads-inread { display: none !important; } 
+body.no-ads div[id^=div-gpt-ad] {display: none !important;}
+body.no-ads div[id^=adbro] { display: none !important; }
+body.no-ads div.andbeyond_adunit { display: none !important; }

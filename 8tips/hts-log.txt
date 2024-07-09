@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 22 May 2024 11:44:34 at https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/ -O1 "C:\8 Tips Keluarga Bahagia Menurut Islam" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:45:29	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/)
+11:45:33	Error: 	"Not Found" (404) at link https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/POST (from https://connect.facebook.net/en_US/fbevents.js)
+11:45:33	Error: 	"Not Found" (404) at link https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+11:45:33	Error: 	"Not Found" (404) at link https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+11:45:33	Error: 	"Not Found" (404) at link https://siraplimau.com/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+11:45:33	Error: 	"Not Found" (404) at link https://siraplimau.com/wp-content/uploads/2017/07/siraplimau-homepage.png (from https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/a)
+
+HTTrack Website Copier/3.49-2 mirror complete in 59 seconds : 84 links scanned, 77 files written (4073993 bytes overall) [2274338 bytes received at 38548 bytes/sec], 3257688 bytes transferred using HTTP compression in 41 files, ratio 24%, 2.9 requests per connection
+(6 errors, 0 warnings, 0 messages)
