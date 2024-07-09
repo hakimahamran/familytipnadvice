@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+xhr.invl.co	TRUE	/	FALSE	1999999999	AWSALB	RXiMY589i22SXrvmSPeGZvV1IgOQvrTN4lM0ceKUoCkvs0m7aywRxmJ9poSzHX3R4yqU1WGQ0rEt9kc/KPvGuYoTYWdYDvkFV4woVBlCmOrf/C/PTj8Tso0wOOuG
+xhr.invl.co	TRUE	/	FALSE	1999999999	AWSALBCORS	RXiMY589i22SXrvmSPeGZvV1IgOQvrTN4lM0ceKUoCkvs0m7aywRxmJ9poSzHX3R4yqU1WGQ0rEt9kc/KPvGuYoTYWdYDvkFV4woVBlCmOrf/C/PTj8Tso0wOOuG
+xhr.invl.co	TRUE	/	FALSE	1999999999	SameSite	None
+.vimeo.com	TRUE	/	FALSE	1999999999	__cf_bm	XqsYGgVSMFNdQOuFHGID0.Vs2z8_KmQGPkDr8v484tg-1716262475-1.0.1.1-hFCzzA3hkxyHy4oKR6Fs9_13EyUWED8qDNTTwmsKTj.QwB82CvPGoLvaNqXtop3y1QMpP5crWnCeQYDM4Ock2Q
+.vimeo.com	TRUE	/	FALSE	1999999999	_cfuvid	23VwMGoV0lB8JnMb47om2w0pr_pM92ntDRTZx2wdxKI-1716262475462-0.0.1.1-604800000
+player.vimeo.com	TRUE	/	FALSE	1999999999	SameSite	None
+
