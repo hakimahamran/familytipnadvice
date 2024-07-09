@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.kelabmama.com	TRUE	/	FALSE	1999999999	PHPSESSID	hh8oauv8it669hfm99mfomobv2
+.onesignal.com	TRUE	/	FALSE	1999999999	__cf_bm	wIQMxtoe5VhgqNBtNVKSmoEgG52HkvIRL110xJ55qeg-1716281741-1.0.1.1-XdYUPiDDMHm6ldJvwr_6j7RtLtSFPZGX5O7NIpUtfM7m2D2Mb5yIkCye_jDh9iOHqOHiOeEmFcOsax4etZMouQ
+cdn.onesignal.com	TRUE	/	FALSE	1999999999	SameSite	None
+

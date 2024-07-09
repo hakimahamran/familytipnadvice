@@ -1,0 +1,29 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 21 May 2024 16:55:17 at https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/ -O1 "C:Koleksi ustazah siti nor bahyah\10 tip rumah tangga bahagia" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:55:41	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/)
+16:55:46	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/OneSignalSDKUpdaterWorker.js.php (from https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/)
+16:55:46	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/OneSignalSDKWorker.js.php (from https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/story_wordpress/wp-content/themes/soledad/owl.video.play.png (from https://www.kelabmama.com/story_wordpress/wp-content/themes/soledad/A.style.css,qver=6.1.pagespeed.cf.NJZdti6RUJ.css)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/assets/images/blank.gif (from https://www.kelabmama.com/v3/assets/css/A.assets.css+style.css+shortcodes.min.css,Mcc.vryRYcQVJ8.css.pagespeed.cf.U-uyye5bZd.css)
+16:56:13	Warning: 	Moved Permanently for https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/chrome-extension://
+16:56:13	Warning: 	Redirected link is identical because of 'URL Hack' option: https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/chrome-extension:// and https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/chrome-extension:/
+16:56:13	Warning: 	File has moved from https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/chrome-extension:// to https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/chrome-extension:/
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+16:56:13	Warning: 	Moved Permanently for https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/^([^:/?
+16:56:13	Warning: 	Warning moved treated for https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/^([^:/? (real one is https://www.kelabmama.com/cms/articles/images_new/201805308186377.jpg)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/GET (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/dialog/ (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/LiveChatEvent/ (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+16:56:13	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/rateyo.set (from https://www.kelabmama.com/story_wordpress/wp-content/plugins/penci-recipe/js/jquery.rateyo.min.js,qver=2.2.pagespeed.jm.LjM9RJmiC1.js)
+16:56:14	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/Trident/ (from https://www.kelabmama.com/story_wordpress/wp-content/themes/soledad/js/libs-script.min.js?ver=6.1)
+16:56:14	Error: 	"Not Found" (404) at link https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/Edge/ (from https://www.kelabmama.com/story_wordpress/wp-content/themes/soledad/js/libs-script.min.js?ver=6.1)
+16:56:14	Error: 	"Forbidden" (403) at link https://www.kelabmama.com/cms/articles/images_new/201805308186377.jpg (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 57 seconds : 65 links scanned, 49 files written (7323089 bytes overall) [4814940 bytes received at 84472 bytes/sec], 7675096 bytes transferred using HTTP compression in 58 files, ratio 56%, 4.4 requests per connection
+(13 errors, 5 warnings, 0 messages)
