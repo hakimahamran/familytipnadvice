@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.astroawani.com	TRUE	/	FALSE	1999999999	__cf_bm	sXY5H2qJwxDtRjzUhG6Xaifs6U97mFKkSvmXakB5qTI-1716219300-1.0.1.1-2rMTzyFyOzxjWpffIAa09ZUElEGNytFfyy_vWClTmLAZYMvg6k8v1FHwRSRZewmz9AfV1kuda3tDNeYzLfB12w
+www.astroawani.com	TRUE	/	FALSE	1999999999	SameSite	None
+
