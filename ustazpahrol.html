@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menage</title>
+<link href="perkahwinan.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+</head>
+<style>
+body{
+	    font-family: Arial,Helvetica, sans-serif;
+	    background-color:#d5f5e3;
+		margin:0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: Lucida Handwriting, cursive;
+  color: #C71585;
+}
+
+/*          TABLE        */
+table {
+        width: 95%;
+	    border-collapse: collapse;
+	    padding:70px;
+	    margin-left:auto;
+	    margin-right:auto;
+		margin-top:5px;
+        }
+
+td, th {
+  	    border: 0px solid black;
+  	    text-align: center;
+  	    padding: 17px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th, td {
+            width: 12.5%; /* 70% / 8 columns */
+        }
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+/*          NAVIGATION BAR         */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #B22222;
+}
+
+/*          BUTTON         */
+.button
+{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.btn
+{
+	border: 2px solid white;
+	padding:20px 40px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform:uppercase;
+	border-radius: 12px;
+
+}
+
+.btn-one
+{
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+	background-color: green;
+	transition: all 0.5sease-in;
+}
+
+.btnv
+{
+	padding:10px 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform:uppercase;
+	border-radius: 12px;
+
+}
+
+.btn-view
+{
+	background-color: green;
+	font-family: "Roboto", sans-serif;
+}
+
+/*     FOOTER     */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   margin-top:5px;
+   background-color:#333;
+   color: white;
+   text-align: center;
+}
+</style>
+<body>
+<ul>
+<li><a href='index.html'>Home</a></li>
+<li><a href='perkahwinan.html'>Marriage</a></li>
+<li><a href='rumahtangga.html'>Menage</a></li>
+<li><a href='anakibubapa.html'>Parent-Child</a></li>
+<li><a href='aboutus.html'>About Us</a></li>
+</ul>
+	
+	<table>
+        <tr>
+            <th>No.</th>
+            <th>NAMA USTAZ/USTAZAH</th>
+            <th>SUB-TOPIK</th>
+            <th>HTTRACK</th>
+            <th>CONIFER</th>
+            <th>SOCIAL MEDIA</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ustaz Pahrol Mohamad Juoi</td>
+            <td><a href='https://www.keluarga.my/bukan-kerana-seks-tetapi-tidak-solat-punca-rumah-tangga-runtuh-ini-penjelasan-ustaz-pahrol-mohamad-juoi/'>“Bukan Kerana Seks Tetapi Tidak Solat Punca Rumah Tangga Runtuh.” Ini Penjelasan Ustaz Pahrol Mohamad Juoi</a></td>
+            <td><a class="btnv btn-view" href="keluarga/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://www.keluarga.my/bukan-kerana-seks-tetapi-tidak-solat-punca-rumah-tangga-runtuh-ini-penjelasan-ustaz-pahrol-mohamad-juoi/'" target="_blank">VIEW</a></td>
+            <td><a href="https://www.facebook.com/p/Pahrol-Mohamad-Juoi-100044565273731/" target="_blank"><img src="images/fb logo.png" style="width:42px;height:42px;"></a> <a href="https://www.instagram.com/ustazpahrolmohamadjuoi/" target="_blank"><img src="images/ig logo.png" style="width:42px;height:42px;"></a></td>
+            
+        </tr>
+		</table>
+
+</div>
+<div class="footer">
+  <br />
+  <p><cite>Copyright © 2024 Nur Hakimah & Anis Amira<br/>
+  Best viewed in Microsoft Edge with resolution 1920 X 1080<br/>
+  This website are for the purpose of assignment on  Web Archiving (ICM561) only</cite>
+  <br><a href="aboutus.html"><button>About Us</button></a></p></p>
+</div>
+	
+</body>
+</html>

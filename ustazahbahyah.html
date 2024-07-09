@@ -1,0 +1,258 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent-Child</title>
+<link href="anakibubapa.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+    </head>
+<style>
+body{
+	    font-family: Arial,Helvetica, sans-serif;
+	    background-color:#d5f5e3;
+		margin:0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: Lucida Handwriting, cursive;
+  color: #C71585;
+}
+
+/*          TABLE        */
+table {
+        width: 95%;
+	    border-collapse: collapse;
+	    padding:70px;
+	    margin-left:auto;
+	    margin-right:auto;
+		margin-top:5px;
+        }
+
+td, th {
+  	    border: 0px solid black;
+  	    text-align: center;
+  	    padding: 17px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th, td {
+            width: 12.5%; /* 70% / 8 columns */
+        }
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+/*          NAVIGATION BAR         */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #B22222;
+}
+
+/*          BUTTON         */
+.button
+{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.btn
+{
+	border: 2px solid white;
+	padding:20px 40px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform:uppercase;
+	border-radius: 12px;
+
+}
+
+.btn-one
+{
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+	background-color: green;
+	transition: all 0.5sease-in;
+}
+
+.btnv
+{
+	padding:10px 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform:uppercase;
+	border-radius: 12px;
+
+}
+
+.btn-view
+{
+	background-color: green;
+	font-family: "Roboto", sans-serif;
+}
+
+/*     FOOTER     */
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   margin-top:5px;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+</style>
+<body>
+
+<nav>
+<ul>
+<li><a href='index.html'>Home</a></li>
+<li><a href='perkahwinan.html'>Marriage</a></li>
+<li><a href='rumahtangga.html'>Menage</a></li>
+<li><a href='anakibubapa.html'>Parent-Child</a></li>
+<li><a href='aboutus.html'>About Us</a></li>
+</ul>
+</nav>
+
+<table>
+        <tr>
+            <th>No.</th>
+            <th>NAMA USTAZ/USTAZAH</th>
+            <th>SUB-TOPIK</th>
+            <th>HTTRACK</th>
+            <th>CONIFER</th>
+	    <th>SOCIAL MEDIA</th>
+            
+        </tr>
+        <tr>
+        <tr>
+            <td>1</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://sinarplus.sinarharian.com.my/kisah-masyarakat/anak-menantu-wajib-pulang-sebelum-maghrib-ustazah-siti-nor-bahyah/'>Anak, menantu wajib pulang sebelum Maghrib – Ustazah Siti Nor Bahyah</a></td>
+            <td><a class="btnv btn-view" href="anakmenantu/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240513145913/https://sinarplus.sinarharian.com.my/kisah-masyarakat/anak-menantu-wajib-pulang-sebelum-maghrib-ustazah-siti-nor-bahyah/" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+	<tr>
+            <td>2</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://www.keluarga.my/ustazah-siti-nor-bahyah-kongsi-amalan-doa-lembutkan-hati-pasangan-anak/'>Ustazah Siti Nor Bahyah Kongsi Amalan & Doa Lembutkan Hati Pasangan & Anak</a></td>
+            <td><a class="btnv btn-view" href="amalan&doa/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240518125230/https://www.keluarga.my/ustazah-siti-nor-bahyah-kongsi-amalan-doa-lembutkan-hati-pasangan-anak/" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+	<tr>
+            <td>3</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/'>10 Tip Rumah Tangga Bahagia Cara Datuk Ustazah Siti Nor Bahyah</a></td>
+            <td><a class="btnv btn-view" href="10tip/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240518133342/https://www.kelabmama.com/rumah-tangga-bahagia-ustazah-siti-nor-bahyah/" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+	<tr>
+            <td>4</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/'>8 Tips Keluarga Bahagia Menurut Islam, dari Ustazah Siti Nor Bahyah Mahamood</a></td>
+            <td><a class="btnv btn-view" href="8tips/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240521094839/https://siraplimau.com/8-tips-keluarga-bahagia-menurut-islam-dari-ustazah-siti-nor-bahyah-mahamood/" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+	<tr>
+            <td>5</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://www.majalahpama.my/rahsia-didik-anak-cara-ustazah-siti-nor-bahyah-ada-peluang-peluk-baru-tak-cepat-mengamuk/'>Rahsia Didik Anak Cara Ustazah Siti Nor Bahyah, Ada Peluang Peluk. Baru Tak Cepat Mengamuk</a></td>
+            <td><a class="btnv btn-view" href="rahsiadidik/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240520060936/https://babab.net/artikel/rahsia-didik-anak-cara-ustazah-siti-nor-bahyah-ada-peluang-peluk-baru-tak-cepat-mengamuk.html" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+	<tr>
+            <td>6</td>
+            <td>Ustazah Siti Nor Bahyah Mahamood</td>
+            <td><a href='https://semuanyajdt.com/bila-anak-tak-mahu-dengar-kata/'>Runsing Bila Anak Tak Mahu Dengar Kata, Ini Pesanan Ustazah Siti Nor Bahyah</a></td>
+            <td><a class="btnv btn-view" href="runsing/index.html" target="_blank">VIEW</a></td>
+            <td><a class="btnv btn-view" href="https://conifer.rhizome.org/kim195/ustazah-siti-nor-bahyah/20240520061201/https://semuanyajdt.com/bila-anak-tak-mahu-dengar-kata/" target="_blank">VIEW</a></td>
+	    <td><a href="https://www.facebook.com/ustazahbahyah/?locale=ms_MY" target="_blank"><img src="images/fb logo.png" style="width: 42px; height: 42px; "></a> <a href="https://www.instagram.com/ustazah_bahyah/?hl=en" target="_blank"><img src="images/ig logo.png" style="width: 42px; height: 42px;"></a></td>
+            
+        </tr>
+
+
+</table>
+<div class="footer">
+  <br />
+  <p><cite>Copyright © 2024 Nur Hakimah & Anis Amira<br/>
+  Best viewed in Microsoft Edge with resolution 1920 X 1080<br/>
+  This website are for the purpose of assignment on  Web Archiving (ICM561) only</cite>
+  <br><a href="aboutus.html"><button>About Us</button></a></p></p>
+
+</div>
+</body>
+</html>
+
